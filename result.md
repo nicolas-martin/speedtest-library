@@ -1,6 +1,7 @@
-➜  speedtest-library git:(master) go run main.go
+➜  speedtest-library git:(master) ✗ go run main.go
 == users ==
 93.140.138.2, (Hrvatski Telekom) [42.6451, 18.0941]
+== users ==
 == server list ==
 {[[36165]    81.19km
 Mostar (Bosnia and Herzegovina) by HT Eronet
@@ -23,13 +24,19 @@ Tirana (Albania) by ALBtelecom sh.a.
  [27986]   204.50km
 Tirana (Albania) by Abissnet
 ]}
+== server list ==
 == targets ==
 [[36165]    81.19km
 Mostar (Bosnia and Herzegovina) by HT Eronet
 ]
- ** ** ** **
+== targets ==
+== run ==
 running 0 [36165]    81.19km
 Mostar (Bosnia and Herzegovina) by HT Eronet
+ Bosnia and Herzegovina
+== run ==
+Download Test: ........................
+Upload Test: .....................
 
+Latency: 27.922444ms, Download: 23.124471, Upload: 3.409144
 
-Latency: 26.455022ms, Download: 24.168320, Upload: 0.000000
