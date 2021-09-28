@@ -8,4 +8,4 @@ all: dev
 
 .PHONY: dev
 dev:
-	GOOS=linux GOARCH=mipsle GOMIPS=softfloat go build $(BUILDOPTS) -o ../bin/$(BINARY)-$@.mipsle
+	GOOS=linux GOARCH=mipsle GOMIPS=softfloat go build $(BUILDOPTS) -o bin/$(BINARY)-$@.mipsle
